@@ -1,8 +1,10 @@
-import Image from 'next/image'
+"use client"
+import {Alert, Dropdown, Navbar} from "flowbite-react"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono lg:flex">
         <article className='max-w-none format lg:format-lg format-red dark:format-invert'>
           <h1>Prototyping from A to Z: best practices for successful prototypes</h1>
