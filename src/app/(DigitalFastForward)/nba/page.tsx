@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Skeleton from '@/_components/_placeholder/default_skeleton';
 
 const MyComponent = () => {
   const [data, setData] = useState<any>(null);
@@ -11,7 +12,7 @@ const MyComponent = () => {
     ContainerName: 'NextBestAction',
     Channel: 'Web',
     Direction: 'Inbound',
-    AppID: 'CDHDemo',
+    AppID: 'CDs',
     Placements: 'Hero,Tile,Tile,Tile',
   };
 
@@ -57,7 +58,7 @@ const MyComponent = () => {
           ))}
         </div>
       ) : (
-        <p>Loading...</p>
+        <Skeleton/>
       )}
     </div>
     </main>
