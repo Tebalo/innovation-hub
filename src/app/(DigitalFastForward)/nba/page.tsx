@@ -38,7 +38,7 @@ const MyComponent = () => {
             <div key={container.ContainerName}>
               <h2>{container.ContainerName}</h2>
               {container.RankedResults.map((result: any) => (
-                <div key={result.InteractionID} className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-10'>
+                <div key={result.Rank} className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-10'>
                   <div className=''>
                     <div className='md:shrink-0'>
                         <img className='h-48 w-full object-cover md:h-full md:48' src={result.ImageURL} alt={result.Treatment} />
