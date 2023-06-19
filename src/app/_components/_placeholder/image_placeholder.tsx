@@ -1,4 +1,4 @@
-export default function Image(){
+export default function Image_Placeholder(){
     return(
 
 <div role="status" className="space-y-8 animate-pulse md:space-y-0 md:space-x-8 md:flex md:items-center">
