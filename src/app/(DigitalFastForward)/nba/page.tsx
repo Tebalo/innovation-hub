@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Skeleton from '@/_components/_placeholder/default_skeleton';
+//import Skeleton from '@/_components/_placeholder/default_skeleton';
 import Image from '@/_components/_placeholder/image_placeholder';
 
 const MyComponent = () => {
