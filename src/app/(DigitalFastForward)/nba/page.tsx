@@ -13,7 +13,7 @@ const MyComponent = () => {
     ContainerName: 'NextBestAction',
     Channel: 'Web',
     Direction: 'Inbound',
-    AppID: 'CDs',
+    AppID: 'CDHDemo',
     Placements: 'Hero,Tile,Tile,Tile',
   };
 
