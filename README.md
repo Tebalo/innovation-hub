@@ -1,7 +1,7 @@
-# TechStackLab
+# Innovation-Hub
 
 ## Description
-TechStackLab is a repository that houses a collection of company projects, templates, and serves as a platform for testing new technology stacks. It aims to provide a central hub for experimentation, innovation, and sharing within our organization.
+Innovation-Hub is a repository that houses a collection of company projects, templates, and serves as a platform for testing new technology stacks. It aims to provide a central hub for experimentation, innovation, and sharing within our organization.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -56,9 +56,9 @@ The repository utilizes a variety of technologies and stacks, including but not 
 
 - Python
 - JavaScript
-- React
+- NextJs
 - Node.js
-- Flask
+- Django
 - PostgreSQL
 - Docker
 - Kubernetes
@@ -66,13 +66,13 @@ The repository utilizes a variety of technologies and stacks, including but not 
 We also actively test and explore new tech stacks to evaluate their potential for future projects.
 
 ## Contributing
-Contributions to TechStackLab are welcome! If you'd like to contribute, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md). You can contribute by submitting pull requests, reporting issues, or suggesting new projects or features.
+Contributions to Innovation-Hub are welcome! If you'd like to contribute, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md). You can contribute by submitting pull requests, reporting issues, or suggesting new projects or features.
 
 ## License
 This repository is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code, subject to the terms and conditions of the license.
 
 ## Contact Information
-For any questions or inquiries, please contact our team at techstacklab@example.com.
+For any questions or inquiries, please contact our team at bopaki@digitalfastforward.com/bopaki@26digitalbw.com/btebalo@gmail.com.
 
 ## Acknowledgments
 We would like to acknowledge the contributions of our team members and the open-source community for their valuable resources, libraries, and tools that have helped make this repository possible.
