@@ -9,6 +9,8 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { AlignTopIcon, MagicWandIcon } from "@radix-ui/react-icons";
+
 export function Theme(){
     const {setTheme} = useTheme()
     return(
@@ -75,21 +77,26 @@ export default function Home() {
                 </div>
             </div>
     </section>
-    <section className="bg-gray-100 py-20 dark:bg-slate-700">
+    <section className="bg-gray-100 py-20 dark:bg-slate-100">
         <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6">Explore Our Solutions</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg p-6 shadow-md dark:bg-inherit">
-                    <h3 className="text-xl font-semibold mb-3">Feature 1</h3>
-                    <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 text-gray-900">Explore Our Solutions</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="bg-white p-6 shadow-lg box-border md:box-content h-32 border-t-4 dark:bg-inherit group-hover:bg-slate-200 focus:bg-slate-500 hover:cursor-pointer">
+                    <MagicWandIcon className="text-blue-500 h-[2rem] w-[2rem]"/>
+                    <h3 className="text-xl font-semibold mb-3 text-blue-700">Advertising & Marketing</h3>
+                    <p className="text-gray-600">Offer meaningful, personalized products and services for all.</p>
                 </div>
-                <div className="bg-white rounded-lg p-6 shadow-md dark:bg-inherit">
-                    <h3 className="text-xl font-semibold mb-3">Feature 2</h3>
-                    <p className="text-gray-600">Aliquam eget justo at odio aliquam ullamcorper ut vitae dolor.</p>
+                <div className="bg-white p-6 shadow-lg box-border md:box-content h-32 border-t-4 dark:bg-inherit group-hover:bg-slate-200 focus:bg-slate-500 hover:cursor-pointer">
+                    <h3 className="text-xl font-semibold mb-3 text-blue-700">Financial Services</h3>
+                    <p className="text-gray-600">Simpler operations. Scalable solutions. Satisfied customers.</p>
                 </div>
-                <div className="bg-white rounded-lg p-6 shadow-md dark:bg-inherit">
-                    <h3 className="text-xl font-semibold mb-3">Feature 3</h3>
-                    <p className="text-gray-600">Sed nec nunc vel leo eleifend auctor at eget tellus.</p>
+                <div className="bg-white p-6 shadow-lg box-border md:box-content h-32 border-t-4 dark:bg-inherit group-hover:bg-slate-200 focus:bg-slate-500 hover:cursor-pointer">
+                    <h3 className="text-xl font-semibold mb-3 text-blue-700">Gorvernment</h3>
+                    <p className="text-gray-600">Government software to engage citizens and modernize processes.</p>
+                </div>
+                <div className="bg-white p-6 shadow-lg box-border md:box-content h-32 border-t-4 dark:bg-inherit group-hover:bg-slate-200 focus:bg-slate-500 hover:cursor-pointer">
+                    <h3 className="text-xl font-semibold mb-3 text-blue-700">Health & Life Sciences</h3>
+                    <p className="text-gray-600">People-centric healthcare at scale. Better outcomes for all.</p>
                 </div>
             </div>
         </div>
