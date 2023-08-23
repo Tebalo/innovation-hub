@@ -47,7 +47,7 @@ export default function Home() {
     <>
     
   <main className="mx-auto px-0 py-8">
-    <header className="fixed top-0 left-0 right-0 bg-slate-800 z-10 h-20">
+    <header className="fixed top-0 left-0 right-0 bg-slate-800 z-10 h-auto">
         <div className="bg-inherit m-2 z-10">
             <Image
              src={logo} alt="Your Logo" className="h-8 w-8 mr-2" 
@@ -60,9 +60,9 @@ export default function Home() {
              width={500}
              height={300}
              />
-             <div className="bg-black my-2 row-auto">
-                <h2>Showcase</h2>
-                <h2>Showcase</h2>
+             <div className="mt-2 grid grid-cols-3">
+                <div><h2>Showcase</h2></div>
+                <div><h2>Templates</h2></div>
              </div>
         </div>
     </header>
@@ -172,7 +172,7 @@ export default function Home() {
     </section>
     <section className="bg-slate-100">
         <div className="container mx-auto">
-        <div className="text-center pt-10"><h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 text-gray-900">Explore Our Products</h2></div>
+            <div className="text-center pt-10"><h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 text-gray-900">Explore Our Products</h2></div>
         </div>
     </section>
   </main>
